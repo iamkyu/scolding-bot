@@ -1,4 +1,3 @@
-import slack as slack
 from slacker import Slacker
 from ConfigParser import SafeConfigParser
 from apscheduler.schedulers.blocking import BlockingScheduler
@@ -44,5 +43,4 @@ def main():
 
 
 if __name__ == '__main__':
-    # sched.start()
-    main()
+    sched.start()
