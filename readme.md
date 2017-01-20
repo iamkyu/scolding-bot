@@ -1,45 +1,11 @@
 # scolding-bot
 
-스터디 과제 수행을 독려하기 위해 처음 만드는 파이썬 봇.
-
-
-
-## PIP
-
-파이썬 패키지 관리를 위한 pip  설치. 커맨드 라인에서 따로 패키지를 `install` 하지 않고 Pycharm IDE를 통해 필요한 패키지 인스톨.
-
-```shell
-$ sudo easy_install pip
-```
-
-
-
-## Heroku [[site](https://www.heroku.com/)]
-
-봇을 배포 할 PaaS ([가격정책](https://www.heroku.com/pricing))
-
-- 회원가입
-- CLI 설치
-
-```shell
-$ heroku login
-# 튜토리얼 문서에서는 heroku create를 통해 랜덤한 이름의 레파지토리를 생성하는데, 직접 Heroku 홈페이지에서 scolding-bot 이라는 이름의 앱 레파지토리를 생성
-
-$ heroku git:clone -a scolding-bot
-$ cd scolding-bot
-$ git add .
-$ git commit -am "make it better"
-$ git push heroku master
-```
-
-- [Getting Started on Heroku with Python](https://devcenter.heroku.com/articles/getting-started-with-python#introduction) Documents 참고.
-
-
+스터디 과제 수행을 독려하기 위해 처음 파이썬으로 만드는 잔소리  봇.
 
 
 # 사용법
 
-1.먼저 [슬랙](https://iamkyu.slack.com/apps/build) 에서 토큰을 발급받아야 하며, Heroku 를 통해 애플리케이션을 배포 합니다. 이에 대한 자세한 내용은 생략합니다. 
+1.먼저 [슬랙](https://iamkyu.slack.com/apps/build) 에서 토큰을 발급받아야 하며, [Heroku](https://www.heroku.com/) 를 통해 애플리케이션을 배포 합니다. 이에 대한 자세한 내용은 생략합니다. 
 
 
 
