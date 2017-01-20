@@ -51,7 +51,7 @@ $ git clone https://github.com/iamkyu/scolding-bot.git
 
 
 
-3.`bot.py` 파일과 같은 디렉토리에 `slack.ini` 파일을 생성하고, 형식에 맞춰 데이터를 입력합니다.
+3.`slack.sample.ini` 파일을 복사해서 `slack.ini` 파일을 생성합니다. 슬랙토큰아이디와 메세지 형식들을 본인에 맞게 수정합니다. 
 
 ```ini
 [slack]
@@ -67,7 +67,7 @@ messages  = [
     ]
 ```
 
-등록한 메세지 중 하나를 선택하여 발송합니다.
+등록한 메세지 중 하나를 선택하여 발송되어집니다.
 
 
 
