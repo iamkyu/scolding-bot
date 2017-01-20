@@ -32,7 +32,8 @@ def get_today_of_week():
 
 
 def get_sending_time(day):
-    hour_from = 13 if day >= 6 else 19
+    is_weekend = day >= 6
+    hour_from = 13 if is_weekend else 19
     hour_to = 22
     return random.randrange(hour_from, hour_to)
 
