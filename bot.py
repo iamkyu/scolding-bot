@@ -44,6 +44,7 @@ def get_sending_time(day):
     hour_from = 13 if is_weekend else 19
     hour_to = 22
     sending_time = random.randrange(hour_from, hour_to)
+    print '##### The Message will be delivered at %s' % sending_time
     return sending_time
 
 
